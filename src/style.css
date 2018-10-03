@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Kodchasan');
+body, html {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: bold;
+  background-color: #0F1010;
+  margin: 0;
+  overflow-x: hidden;
+}
+.banner {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 999;
+}
+.windowbackground {
+  width: 100%;
+  position: absolute;
+  z-index: 998;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.big {
+  font-size: 200px;
+}
+.wrapper {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.iframecontainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  background-color: white;
+}
+.iframecontainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
